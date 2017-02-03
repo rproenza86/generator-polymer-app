@@ -18,7 +18,7 @@ module.exports = class extends Generator {
     const config = this.config.getAll()
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the prime ' + chalk.red('polymerapp') + ' generator!'
+      'Welcome to the prime ' + chalk.red('polymer-app') + ' generator!'
     ))
 
     if (config && config.promptValues && config.promptValues.src) {

@@ -1,5 +1,5 @@
 {
-  "name": "generator-polymerapp",
+  "name": "generator-polymer-app",
   "version": "0.0.0",
   "description": "Polymer Apps generators",
   "homepage": "",
@@ -46,7 +46,7 @@
       "mocha": true
     }
   },
-  "repository": "AlbertoFdzM/generator-polymerapp",
+  "repository": "AlbertoFdzM/generator-polymer-app",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
