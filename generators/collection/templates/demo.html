@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title><%= collectionName.charAt(0).toUpperCase() + collectionName.slice(1) %> Elements</title>
+
+  <script>window.Polymer = {dom: 'shadow'}</script>
+
+  <script src="<%= paths.bower %>/webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="<%= paths.bower %>/polymer/polymer.html">
+
+</head>
+<body>
+
+  <dom-module id="demo-app">
+    <template>
+      <style>
+        :host {
+          display: block;
+        }
+      </style>
+
+    </template>
+    <script>
+      Polymer({
+        is: 'demo-app'
+      })
+    </script>
+  </dom-module>
+
+  <h1><%= collectionName.charAt(0).toUpperCase() + collectionName.slice(1) %> Elements</h1>
+
+  <demo-app></demo-app>
+
+</body>
+</html>
