@@ -36,3 +36,4 @@ MIT © [Alberto Fernandez](http://onlythepixel.com)
 [daviddm-url]: https://david-dm.org/AlbertoFdzM/generator-polymer-app
 [coveralls-image]: https://coveralls.io/repos/AlbertoFdzM/generator-polymer-app/badge.svg
 [coveralls-url]: https://coveralls.io/r/AlbertoFdzM/generator-polymer-app
+ 
