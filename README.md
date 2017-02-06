@@ -1,6 +1,8 @@
 # generator-polymer-app [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > Polymer Apps generators
 
+## WARNING! WIP Project is under development
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-polymer-app using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
